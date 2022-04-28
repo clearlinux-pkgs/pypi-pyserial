@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyserial
 Version  : 3.5
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz
 Summary  : Python Serial Port Extension
@@ -15,9 +15,6 @@ Requires: pypi-pyserial-license = %{version}-%{release}
 Requires: pypi-pyserial-python = %{version}-%{release}
 Requires: pypi-pyserial-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pyserial
-Provides: pyserial-python
-Provides: pyserial-python3
 
 %description
 =================================
@@ -69,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641479842
+export SOURCE_DATE_EPOCH=1651170034
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
